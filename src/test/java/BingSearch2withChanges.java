@@ -57,7 +57,7 @@ public class BingSearch2withChanges {
 
     private void waitForResult() {
 
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 10); //the way of waiting to showing element
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("b_tween")));
 
     }
