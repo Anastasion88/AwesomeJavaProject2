@@ -34,7 +34,7 @@ public class WindowHandlesTest {
     }
 
     private void assertResultOfWindowOne() {
-        driver.switchTo().window(windowHandle1);
+        driver.switchTo().window(windowHandle1); //change window 1 and window 0
         String windowTitle = driver.getTitle();
         String titlePartialText = "The Internet";
         boolean isTitleThere = windowTitle.contains(titlePartialText);
@@ -67,7 +67,7 @@ public class WindowHandlesTest {
 
     private void openLink() {
         driver.get("https://the-internet.herokuapp.com/windows");
-    }
+    } //the way to pen page
 
     @AfterMethod
     public void afterMethod(){

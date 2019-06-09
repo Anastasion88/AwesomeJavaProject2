@@ -25,7 +25,7 @@ public class CheckboxesTest {
         openCheckBoxesPage();
 
         List<WebElement> listOfInputs = driver.findElements(By.tagName("input"));
-        int listSize = listOfInputs.size();
+        int listSize = listOfInputs.size(); //we can delete this line and test will work
 
         WebElement checkbox1 = listOfInputs.get(0);
         WebElement checkbox2 = listOfInputs.get(1);

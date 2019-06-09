@@ -8,7 +8,7 @@ public class ListTest {
 
     @Test
     public void test001(){
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<Integer>(); //add array of inegers
 
         list.add(1);
         list.add(2);
